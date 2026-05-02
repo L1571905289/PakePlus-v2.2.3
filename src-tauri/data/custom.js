@@ -20,6 +20,8 @@ const hookClick = (e) => {
 
 window.open = function (url, target, features) {
     console.log('open', url, target, features)
+
+  
     location.href = url
 }
 
